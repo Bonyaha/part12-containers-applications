@@ -1,0 +1,16 @@
+Script started on 2024-01-07 15:28:21+02:00 [TERM="xterm-256color" TTY="/dev/pts/7" COLUMNS="91" LINES="23"]
+[?2004h]0;roman@pc-5CD207KSG5: ~[01;32mroman@pc-5CD207KSG5[00m:[01;34m~[00m$ docker conte[Kainer run 0[K9t[K[K[[Kp[K-it ubuntuy[K bash
+[?2004l[?2004h]0;root@0dc31ef70995: /root@0dc31ef70995:/# ls
+[?2004l[0m[01;36mbin[0m   [01;34mdev[0m  [01;34mhome[0m  [01;36mlib32[0m  [01;36mlibx32[0m  [01;34mmnt[0m  [01;34mproc[0m  [01;34mrun[0m   [01;34msrv[0m  [30;42mtmp[0m  [01;34mvar[0m
+[01;34mboot[0m  [01;34metc[0m  [01;36mlib[0m   [01;36mlib64[0m  [01;34mmedia[0m   [01;34mopt[0m  [01;34mroot[0m  [01;36msbin[0m  [01;34msys[0m  [01;34musr[0m
+[?2004h]0;root@0dc31ef70995: /root@0dc31ef70995:/# mkdir p p = -p /usr/sc rs r c/app
+[?2004l[?2004h]0;root@0dc31ef70995: /root@0dc31ef70995:/# ls
+[?2004l[0m[01;36mbin[0m   [01;34mdev[0m  [01;34mhome[0m  [01;36mlib32[0m  [01;36mlibx32[0m  [01;34mmnt[0m  [01;34mproc[0m  [01;34mrun[0m   [01;34msrv[0m  [30;42mtmp[0m  [01;34mvar[0m
+[01;34mboot[0m  [01;34metc[0m  [01;36mlib[0m   [01;36mlib64[0m  [01;34mmedia[0m   [01;34mopt[0m  [01;34mroot[0m  [01;36msbin[0m  [01;34msys[0m  [01;34musr[0m
+[?2004h]0;root@0dc31ef70995: /root@0dc31ef70995:/# touch/  /usr/src/app/index/ .js
+[?2004l[?2004h]0;root@0dc31ef70995: /root@0dc31ef70995:/# [Kexit
+[?2004lexit
+[?2004h]0;roman@pc-5CD207KSG5: ~[01;32mroman@pc-5CD207KSG5[00m:[01;34m~[00m$ ext[Kit
+[?2004lexit
+
+Script done on 2024-01-07 15:30:58+02:00 [COMMAND_EXIT_CODE="0"]
