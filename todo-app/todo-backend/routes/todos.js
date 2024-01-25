@@ -1,5 +1,6 @@
 const express = require('express')
 const { Todo } = require('../mongo')
+const { setAsync, getAsync } = require('../redis')
 const router = express.Router()
 
 /* GET todos listing. */
@@ -14,6 +15,10 @@ router.post('/', async (req, res) => {
     text: req.body.text,
     done: false
   })
+  // Increment the todo counter in Redis
+  const currentCount = await getAsync('added_todos') || 0
+  const newCount = Number(currentCount) + 1
+  await setAsync('added_todos', newCount)
   res.send(todo)
 })
 

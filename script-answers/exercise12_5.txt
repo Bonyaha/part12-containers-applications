@@ -7,6 +7,8 @@ use the_database
 show collections
 db.todos.find({})
 db.todos.insertOne({
-  text: 'Increase the number of tools in my toolbelt',
-  done: false
+  text: 'test',
+  done: true
 })
+
+db.todos.deleteOne({ _id: ObjectId("65b10ee69946cc05831fdba1") })
