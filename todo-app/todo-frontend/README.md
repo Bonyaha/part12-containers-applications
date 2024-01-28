@@ -13,3 +13,7 @@ You can run tests with `npm run test`
 ## Environment variables
 
 Use REACT_APP_BACKEND_URL to set where the backend for this application is.
+## build the image
+docker build . -t todo-frontend
+## start container
+docker run -p 8000:80 todo-frontend
