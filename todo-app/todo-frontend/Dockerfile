@@ -15,7 +15,7 @@ FROM test-stage AS build-stage
 WORKDIR /usr/src/app
 
 # Set environment variable for backend URL
-ENV REACT_APP_BACKEND_URL=http://localhost:3000
+ENV REACT_APP_BACKEND_URL=http://localhost:3100
 
 COPY . .
 
