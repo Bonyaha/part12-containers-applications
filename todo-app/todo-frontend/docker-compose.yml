@@ -10,4 +10,4 @@ services:
       - 3000:3000
     environment:
       - REACT_APP_BACKEND_URL=http://localhost:3100
-    container_name: todo-frontend # This will name the container hello-front-dev
+    container_name: todo-frontend # This will name the container todo-frontend
